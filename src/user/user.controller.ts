@@ -8,7 +8,7 @@ export class UserController {
   constructor(private userService: UserService) {}
 
   @Get()
-  async login(@Request() req) {
+  async getUser(@Request() req) {
     return this.userService.findOne(req.user.username);
   }
 }
