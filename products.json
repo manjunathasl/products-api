@@ -25,53 +25,53 @@
     "price": "1499"
   },
   {
-    "id": "0",
+    "id": "5",
     "productName": "Dell Lattitude",
     "price": "1499"
   },
   {
-    "id": "1",
+    "id": "5",
     "productName": "Apple Macbook Pro M1",
     "price": "3199"
   },
   {
-    "id": "2",
+    "id": "7",
     "productName": "Dell XPS 13 2020",
     "price": "1199"
   },
   {
-    "id": "3",
+    "id": "8",
     "productName": "Apple Macbook Pro M2",
     "price": "1399"
   },
   {
-    "id": "4",
+    "id": "8",
     "productName": "Samsung Notebook 10",
     "price": "1499"
   },
 
   {
-    "id": "0",
+    "id": "10",
     "productName": "HP Probook",
     "price": "1499"
   },
   {
-    "id": "1",
+    "id": "11",
     "productName": "Dell Zbook",
     "price": "3199"
   },
   {
-    "id": "2",
+    "id": "12",
     "productName": "Dell XPS 15 2020",
     "price": "1199"
   },
   {
-    "id": "3",
+    "id": "13",
     "productName": "Apple Macbook Pro M3",
     "price": "1399"
   },
   {
-    "id": "4",
+    "id": "14",
     "productName": "Surface book",
     "price": "1499"
   }

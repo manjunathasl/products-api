@@ -29,4 +29,16 @@ export class AuthService {
       access_token,
     };
   }
+
+  async refreshToken(username: string) {
+    const user = await this.userService.findOne(username);
+    if (!user) {
+      throw new UnauthorizedException('Invalid credentials');
+    }
+    const payload = { username };
+    const access_token = this.jwtService.sign(payload);
+    return {
+      access_token,
+    };
+  }
 }
